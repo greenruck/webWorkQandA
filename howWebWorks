@@ -1,0 +1,19 @@
+HTTP is Hypertext Transfer Protocol, a set of rules to communicate between browser and webserver
+
+URL is Uniform Resource Locator, it is the address of a webpage on the internet
+
+Domain Name System translates human readable domain names to machine readable IP addresses
+
+Query Strings are extra information such as searches and arguments that can be found at the end of a URL. Often shown as ?()=(some value)
+
+GET and POST; Get is used when the request without side effects, POST has side effects such as saving information that are sent as body of the request 
+
+Method is sent and the HTTP ProtocolVersion is received, get the URL we want, headers are included
+
+HTTP Requests are sent by the user to start an event on the server i.e. get and post
+
+HTTP response is sent from the server to a user. It gives the user the resource they requested
+
+Headers let the user and server pass additional information in the request or response. Include hostname, date, language you want, cookies, content type, caching.
+
+When I type http://site.com/some/page.html the host name translates to an IP address then connects to that address. Using HTTP protocol a request is made for the resource desired and is passed as query string
